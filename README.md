@@ -16,7 +16,7 @@ Dynamic and fully responsive web page, developed with the React.js framework, wi
 <img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="40" heigth="40"/>
 <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="40" heigth="40"/> </div>
-<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="40" heigth="40"/> </div>
+<img src="https://img.icons8.com/?size=1x&id=t5K2CR8feVdX&format=gif" alt="github" width="40" heigth="40"/> </div>
 
 
 ## 👾 Developers
