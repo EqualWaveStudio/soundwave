@@ -2,12 +2,12 @@
 
 Dynamic and fully responsive web page, developed with the React.js framework, with functional components, making use of hooks, using react-router-dom and some of the following styling technologies for React: CSS modules, 🏗️ "styled components or some framework UI - Bootstrap" 🚧
 
-## 💻 Tools
+### Technologies
+<div> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </div>
 
-- Figma
-- Visual Studio Code
-- Trello
-- Git / GitHub
+### Tools
 
 ### Tools
 <div>
