@@ -23,7 +23,7 @@ Dynamic and fully responsive web page, developed with the React.js framework, wi
 ## 👾 Developers
 
 - Laura García
-- Jacinemi Urkiola
+- Jacinemi Urquiola Alvarez
 - Jeaneth Sánchez Núñez
 - Ana Lucía Silva Córdoba
 - Rafaela Silveira Prieto
