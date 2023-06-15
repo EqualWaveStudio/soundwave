@@ -1,0 +1,13 @@
+
+:root {
+  --purple-bg: #1E1E1E;
+  --dark-pink: #3E2D40;
+  --dark-blue: #303045;
+  --blue-btn: #2250A3;
+  --dark-purple: #202027;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
