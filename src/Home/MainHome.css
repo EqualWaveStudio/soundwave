@@ -7,8 +7,10 @@ body{
     font-size: 1.2rem;
 }
 main{
-  overflow: hidden;
+  width: 100vw;;
   height: 100%;
+  overflow: hidden;
+  
  
 
 }
@@ -26,8 +28,8 @@ main{
 }
 
 .main-content{
-   width: 100%;
-   height: 100%;
+  width: 100%;
+    height: 100%;
     position: absolute;
     display: flex;
     justify-content: space-evenly;
@@ -38,17 +40,14 @@ main{
 
 
 .girl-photo{
-width: 100vw;
-margin: 0 5rem;
 width: 30vw;
 z-index: 1;
 }
 
 .main-text{
-    width: 100vw;
-    display: start;
+    width: 50vw;
     margin-bottom: 15rem;
-    padding: 0 7rem;
+    padding: 0 5rem;
     
 }
 
@@ -63,8 +62,8 @@ font-weight: 400;
 font-size: 1.4rem;
 }
 .pink-cirle{
-    width: 500px;
-    height: 500px;
+    width: 30%;
+    padding-bottom: 30%;
     background-color: var(--pink-circle);
     border-radius: 50%;
     position: absolute;
@@ -73,8 +72,8 @@ font-size: 1.4rem;
 }
 
 .blue-cirle{
-    width: 450px;
-    height: 450px;
+    width: 30%;
+    padding-bottom: 30%;
     background-color: var(--blue-circle);
     border-radius: 50%;
     position:absolute;
@@ -82,8 +81,8 @@ font-size: 1.4rem;
     left: 20%;
 }
 .big-blue-cirle{
-    width: 500px;
-    height: 500px;
+    width: 30%;
+    padding-bottom: 30%;
     background-color: var(--blue-circle);
     border-radius: 50%;
     position: absolute;
@@ -91,4 +90,81 @@ font-size: 1.4rem;
     left: 95%;
     transform: translate(-50%, -50%);
     transition: opacity 0.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 575px){
+
+    .girl-photo{
+        display:none;
+    }  
+
+    .main-content{
+        width: 100%;
+    }
+
+    .main-text{
+        width: 90vw;
+        margin-bottom: 30vh;
+        padding: 0 1rem;
+        
+    }
+
+    h1{
+        line-height: 5rem;
+    }
+
+
+    .pink-cirle{
+
+        top: 80%;
+        left: -10%;
+    }
+    
+    .blue-cirle{
+       
+        top: 8%;
+        left: 20%;
+    }
+    .big-blue-cirle{
+    
+        top: calc(100% - 5%);
+        left: 98%;
+        
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .main-content{
+        height: 100vh;
+        padding: 0;
+          flex-direction: column-reverse;
+          overflow: hidden;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0;
+      }
+
+      .main-text{
+          padding: 0 1rem;
+          width: 80vw;
+          margin-top: 30vh;
+          margin-bottom: 10vh;
+      }
+
+      h1{
+        font-size: 5rem;
+      }
+
+      p{
+        font-size: 2rem;
+      }
+
+      .girl-photo{
+        height: 50vh;
+        width: 50vw;
+        z-index: 1;
+        }
 }
