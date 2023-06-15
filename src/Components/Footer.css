@@ -1,14 +1,32 @@
 
 
-.footer-container {
-    background-color: #202027;
-    color: white;
-    text-align: center;
-    height: 10vh;
-  }
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1d1deb;
+  height: 40vh;
+  width: auto;
+    
+}
 
-  .footer-links {
-    display: flex;
-    justify-content: space-between;
-  }
+:hover {
+  color: white
+}
+
+.divLeft {
+  background-color: rgb(240, 252, 70);
+  width: 30vh;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+
+}
+.divRigth {
+  background-color: rgb(240, 252, 70);
+  width: 30vh;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
   
+}

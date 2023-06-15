@@ -5,16 +5,17 @@ import './Footer.css';
 function Footer() {
   return (
     <div>
-      <footer className="footer-container">
-        <p>Este es el Footer de la pagina!</p>
-        
         <div className="footer-links">
-          <a href="sinNada">About US </a>
-          <a href="sinNada">Contact </a>
-          <a href="sinNada">Twitter </a>
-          <a href="sinNada">Facebook </a>
+        <div className="divLeft">
+            <a href="sinNada">About US</a>
+            <br></br>
+            <a href="sinNada">Contact</a>
         </div>
-      </footer>
+        <div className="divRigth">
+          <a href="sinNada">Twitter</a>
+          <a href="sinNada">Facebook</a>
+        </div>
+        </div>
     </div>
   );
 }
