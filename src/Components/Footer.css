@@ -6,4 +6,9 @@
     text-align: center;
     height: 10vh;
   }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
   
