@@ -1,8 +1,22 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { MemoryRouter } from 'react-router-dom';
+import Header from './Components/Header';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Header', () => {
+  test('renders Logo component', () => {
+    render(<Header />);
+    const logoElement = screen.getByAltText('Logo');
+    const logoTitleElement = screen.getByText('SoundWave');
+    expect(logoElement).toBeInTheDocument();
+    expect(logoTitleElement).toBeInTheDocument();
+  });
+
+  test('renders Buttons component', () => {
+    render(<Header />);
+    const discoverButtonElement = screen.getByText('Discover');
+    const joinButtonElement = screen.getByText('Join');
+    expect(discoverButtonElement).toBeInTheDocument();
+    expect(joinButtonElement).toBeInTheDocument();
+  });
 });
