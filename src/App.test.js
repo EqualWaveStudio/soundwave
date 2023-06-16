@@ -5,7 +5,11 @@ import Header from './Components/Header';
 
 describe('Header', () => {
   test('renders Logo component', () => {
-    render(<Header />);
+    render(
+      <MemoryRouter>
+        <Header />
+      </MemoryRouter>
+    );
     const logoElement = screen.getByAltText('Logo');
     const logoTitleElement = screen.getByText('SoundWave');
     expect(logoElement).toBeInTheDocument();
@@ -13,7 +17,11 @@ describe('Header', () => {
   });
 
   test('renders Buttons component', () => {
-    render(<Header />);
+    render(
+      <MemoryRouter>
+        <Header />
+      </MemoryRouter>
+    );
     const discoverButtonElement = screen.getByText('Discover');
     const joinButtonElement = screen.getByText('Join');
     expect(discoverButtonElement).toBeInTheDocument();
