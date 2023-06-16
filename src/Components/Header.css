@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+  
+.logo-container {
+    display: flex; 
+    align-items: center;
+    font-size: 12px;
+    margin-top: 2rem;
+}
+  
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1.5rem;
+}
+
+  
+.button-container {
+    display: flex;
+}
+  
+.header-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+  
+@media only screen and (max-width: 575px){
+
+.logoTitle {
+    font-size: 20px;
+}
+
+
+}

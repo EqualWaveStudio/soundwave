@@ -1,18 +1,26 @@
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import MainHome from './Home/MainHome';
+import MainDiscover from './Discover/MainDiscover';
+import MainJoin from './Join/MainJoin';
 import Footer from './Components/Footer';
 
 const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <MainHome />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/discover" element={<MainDiscover />} />
+          <Route path="/join" element={<MainJoin />} />
+          <Route path="/" element={<MainHome />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
 export default App;
-
