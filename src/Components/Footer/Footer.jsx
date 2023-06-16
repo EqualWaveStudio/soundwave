@@ -4,13 +4,12 @@ import '../Footer.css';
 
 function Footer() {
   return (
-    <div>
-        <div className="footer-links">
-        <div className="divLeft">
+    <div className='Footer'>
+        <div className="Footer-Left">
             <a href="sinNada">About US</a>
             <a href="sinNada">Contact</a>
         </div>
-        <div className="divRigth">
+        <div className="Footer-Rigth">
           <a href="sinNada">Twitter</a>
           <a href="sinNada">Facebook</a>
         </div>

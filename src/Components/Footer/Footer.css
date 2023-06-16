@@ -1,15 +1,12 @@
 
 
-.footer-links {
+.Footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   background-color: #1d1deb;
   height: 40vh;
   width: auto;
-
-
-
     
 }
 
@@ -17,7 +14,7 @@
   color: white
 }
 
-.divLeft {
+.Footer-Left {
   background-color: rgb(240, 252, 70);
   width: 30vh;
   height: 5vh;
@@ -25,7 +22,7 @@
   justify-content: space-around;
 
 }
-.divRigth {
+.Footer-Rigth {
   background-color: rgb(240, 252, 70);
   width: 30vh;
   height: 5vh;
