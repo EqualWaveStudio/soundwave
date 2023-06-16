@@ -1,11 +1,34 @@
 import React from 'react';
+import '../Join/MainJoin';
+import Form from '../Components/Form';
+import './MainJoin.css'
 
-const Main = () => {
-  return (
-    <main>
+
+const MainJoin = () => {
+    return(
+          <main>
       
-    </main>
-  );
-};
+              <div className="content">
+                        
+              <div className='text'>
+                <h1>
+                Join the <span className="pink-text">fun.</span>
+                </h1>
+                 </div>
+                
+                <div className='pink-circle'></div>
+                <div className='purple-circle'></div>
+                                
+              </div>
+              <div> 
+                <Form />
+              </div>
+              
+            
+          </main>
+      
+    )
+      };
 
-export default Main;
+  export default MainJoin;
+  
