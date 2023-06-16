@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../Footer.css';
 
 
 function Footer() {
@@ -8,7 +8,6 @@ function Footer() {
         <div className="footer-links">
         <div className="divLeft">
             <a href="sinNada">About US</a>
-            <br></br>
             <a href="sinNada">Contact</a>
         </div>
         <div className="divRigth">
