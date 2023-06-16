@@ -10,32 +10,25 @@ main{
   width: 100vw;;
   height: 100%;
   overflow: hidden;
-  
- 
-
 }
 
 .main-circles{
   overflow: hidden; 
-  height: 100%;
- 
 }
 
 .cirles{
     position: relative;
     z-index: 0;
-    
 }
 
 .main-content{
-  width: 100%;
+    width: 100%;
     height: 100%;
     position: absolute;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
     overflow: hidden;
-
 }
 
 
@@ -48,7 +41,6 @@ z-index: 1;
     width: 50vw;
     margin-bottom: 15rem;
     padding: 0 5rem;
-    
 }
 
 h1{

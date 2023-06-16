@@ -20,11 +20,10 @@ const Main = () => {
 
 
           <div className='pink-cirle'></div>
-          <div className='blue-cirle'></div>
           <div className='big-blue-cirle'></div>
 
         </div>
-      
+        <div className='blue-cirle'></div> 
     </main>
   );
 };
