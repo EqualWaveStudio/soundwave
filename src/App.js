@@ -1,14 +1,17 @@
 import './App.css';
 import React from 'react';
-import Header from './src/Components/Header/Header.component';
-import MainHome from './src/Components/Home/MainHome.jsx';
-import Footer from './Components/Footer/Footer.jsx';
+import MainHome from '../src/Components/Home/MainHome';
+import MainDiscover from '../src/Components/Discover/MainDiscover';
+import MainJoin from '../src/Components/Join/MainJoin';
+import Footer from './Components/Footer/Footer';
+
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
       <MainHome />
+      <MainDiscover />
+      <MainJoin />
       <Footer />
     </div>
   );

@@ -1,29 +1,26 @@
-
-
-.Footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #1d1deb;
-  height: 40vh;
-  width: auto;
-    
-}
-
 :hover {
   color: white
 }
 
+.Footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1E1E1E;
+  width: auto;
+  height: 5vh;
+    
+}
+
 .Footer-Left {
-  background-color: rgb(240, 252, 70);
   width: 30vh;
   height: 5vh;
   display: flex;
   justify-content: space-around;
 
 }
+
 .Footer-Rigth {
-  background-color: rgb(240, 252, 70);
   width: 30vh;
   height: 5vh;
   display: flex;
