@@ -8,7 +8,7 @@ const Logo = () => {
   return (
     <div className="logo-container">
       <img className="logo" src={logo} alt="Logo" />
-      <h1 className="logoTitle">SoundWave</h1>
+      <h1 className="logo-title">SoundWave</h1>
     </div>
   );
 };

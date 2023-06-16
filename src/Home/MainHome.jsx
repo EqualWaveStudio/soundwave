@@ -10,7 +10,9 @@ const Main = () => {
 
         <div className="main-content">
           
+          <div className='photo'>
           <img className="girl-photo" src={girlPhoto} alt="Mujer afro descendiente con audifonos escuchando musica" />
+          </div>
 
           <div className='main-text'>
             <h1>Feel de music</h1>

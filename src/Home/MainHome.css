@@ -1,15 +1,14 @@
 
 body{
     background-color: var(--dark-blue);
-    height: 100vh;
     margin: 0;
     color: white;
     font-size: 1.2rem;
 }
 main{
   width: 100vw;;
-  height: 100%;
   overflow: hidden;
+  margin:0;
 }
 
 .main-circles{
@@ -22,25 +21,32 @@ main{
 }
 
 .main-content{
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: 6.2rem;
+    width: 100vw;
     position: absolute;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: space-around;
     overflow: hidden;
 }
 
+.photo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
 
 .girl-photo{
-width: 30vw;
+    width: 350px;
+    height: auto;
 z-index: 1;
 }
 
 .main-text{
     width: 50vw;
-    margin-bottom: 15rem;
-    padding: 0 5rem;
+    margin-top: 5rem;
+    padding-right: 8rem;
 }
 
 h1{
@@ -49,32 +55,33 @@ font-size: 3.9rem;
 }
 
 p{
-
 font-weight: 400;
-font-size: 1.4rem;
+font-size: 1.3rem;
 }
+
 .pink-cirle{
-    width: 30%;
-    padding-bottom: 30%;
+    width: 25%;
+    padding-bottom: 25%;
     background-color: var(--pink-circle);
     border-radius: 50%;
     position: absolute;
     top: 20%;
-    left: -20%;
+    left: -5%;
 }
 
 .blue-cirle{
-    width: 30%;
-    padding-bottom: 30%;
+    width: 25%;
+    padding-bottom: 25%;
     background-color: var(--blue-circle);
     border-radius: 50%;
     position:absolute;
-    top: -10%;
-    left: 20%;
+    top: 15%;
+    left: 25%;
 }
+
 .big-blue-cirle{
-    width: 30%;
-    padding-bottom: 30%;
+    width: 40%;
+    padding-bottom: 40%;
     background-color: var(--blue-circle);
     border-radius: 50%;
     position: absolute;
@@ -87,7 +94,7 @@ font-size: 1.4rem;
 
 @media only screen and (max-width: 575px){
 
-    .girl-photo{
+    .photo{
         display:none;
     }  
 
@@ -96,33 +103,28 @@ font-size: 1.4rem;
     }
 
     .main-text{
-        width: 90vw;
+        width: 100%;
         margin-bottom: 30vh;
-        padding: 0 1rem;
-        
+        padding: 0 1.5rem; 
     }
 
     h1{
         line-height: 5rem;
     }
 
-
     .pink-cirle{
-
         top: 80%;
-        left: -10%;
+        left: -5%;
     }
     
     .blue-cirle{
-       
-        top: 8%;
+        top: 15%;
         left: 20%;
     }
+
     .big-blue-cirle{
-    
         top: calc(100% - 5%);
         left: 98%;
-        
     }
 }
 
@@ -159,4 +161,20 @@ font-size: 1.4rem;
         width: 50vw;
         z-index: 1;
         }
+        
+        .pink-cirle{
+            top: 80%;
+            left: -5%;
+        }
+        
+        .blue-cirle{
+            top: 10%;
+            left: 20%;
+        }
+    
+        .big-blue-cirle{
+            top: calc(100% - 5%);
+            left: 98%;
+        }
+        
 }
