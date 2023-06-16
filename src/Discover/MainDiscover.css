@@ -1,0 +1,56 @@
+main {
+    background-color: var(--dark-blue);
+    color: white;
+}
+  
+.main-discover-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3.9rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.icons-discover {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.covers {
+    width: 23.75rem;
+    height: 23.76rem;
+}
+
+.icons-discover div img {
+    width: 2.5rem;
+}
+
+.icons-discover div p {
+    font-size: 16px;
+}
+
+.icons-discover div {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--dark-purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
