@@ -20,7 +20,7 @@ const Form = () => {
                 <input type="text" {...register('email')} className='transparent-input' />
             </div>
             <div className='form-password'>
-                <label>Password:</label>
+                <label className='label-text'>Password:</label>
                 <input type="text" {...register('password')} className='transparent-input' />
             </div>
             <button type='submit' className='button'>Join Now</button>

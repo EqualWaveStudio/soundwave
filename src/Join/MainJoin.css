@@ -31,6 +31,7 @@ h1{
     padding: 0 5rem;
     color: white; 
     z-index: 1;
+    
   }
   
 .pink-text {
@@ -39,31 +40,34 @@ h1{
 }
 
 .container div{
-    display: flex;
     justify-content: left;
     align-items: left;    
     flex-direction: column;
     border-radius: 10px;
     padding: 1vw;
     margin-bottom: 1vw;
-    margin-top: 1rem;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+    margin-right: 2.1vw;
     
 
   }
 
 .container {
-    width: 35%;
+    width: 30%;
     padding-bottom: 3%;
     background-color: var(--dark-purple);
     position: absolute;
     top: 25%;
     left: 55%;
     border-radius: 5%;
-    text-align: left;
     font-size: 1vw;
-    
-    
+    align-items: center;
+  
+}
 
+.form-control .label-text {
+  text-align: left;
 }
 
 .button {
@@ -76,9 +80,8 @@ h1{
     font-weight: bold;
     cursor: pointer; 
     font-size: 2vh;
-    width: 92%;   
+    width: 76%;   
     display: block;
-    position: relative;
     margin: auto;
 
 
@@ -113,20 +116,22 @@ h1{
     
 }
 
+
+
 .transparent-input {
     background-color: transparent;
     border: 1px solid var(--purple);
     border-radius: 0.3vw;
-    padding: 1vh 6vh;
+    padding: 1vh 6.3vh 1vh 4.5vh;
     width: 80%;
     outline: none;
-    margin: auto; 
     
   }
 
-
   input[type="text"] {
     color: white;
-    text-align: left;
+    padding-left: 1vw;
+    
+    
   }
     
