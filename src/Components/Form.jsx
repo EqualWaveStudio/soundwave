@@ -4,8 +4,10 @@ import '../Join/MainJoin';
 
 const Form = () => {
   const { register, handleSubmit } = useForm() 
+ 
   const customSubmit = (data) => {
       console.log(data)
+      /*con esta función se que datos se capturan y lo veo en consola*/
   }
   return (
     <>

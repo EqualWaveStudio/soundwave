@@ -21,7 +21,7 @@ const MainJoin = () => {
                                 
               </div>
               <div> 
-                <Form />
+             <Form />
               </div>
               
             

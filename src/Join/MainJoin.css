@@ -122,16 +122,15 @@ h1{
     background-color: transparent;
     border: 1px solid var(--purple);
     border-radius: 0.3vw;
-    padding: 1vh 6.3vh 1vh 4.5vh;
+    padding: 1vh 6.3vh 1vh;
     width: 80%;
     outline: none;
-    
-  }
-
-  input[type="text"] {
     color: white;
     padding-left: 1vw;
-    
-    
+        
+  }
+
+  small {
+    color: var(--pink-dark);
   }
     

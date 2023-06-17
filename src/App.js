@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import MainHome from './Home/MainHome';
 import Footer from './Components/Footer';
 import MainJoin from './Join/MainJoin';
+import FormValidation from './Components/FormValidation';
 
 
 const App = () => {
@@ -12,6 +13,8 @@ const App = () => {
       <Header />
       <MainHome />
       <MainJoin />
+        {/* <Fom />  */}
+        <FormValidation />
       <Footer />
     </div>
   );
