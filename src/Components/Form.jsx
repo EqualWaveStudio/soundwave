@@ -19,11 +19,11 @@ const Form = () => {
                 <label>Email:</label>
                 <input type="text" {...register('email')} className='transparent-input' />
             </div>
-            <div className='form-control'>
-                <label>Password</label>
+            <div className='form-password'>
+                <label>Password:</label>
                 <input type="text" {...register('password')} className='transparent-input' />
             </div>
-            <button type='submit'>Join Now</button>
+            <button type='submit' className='button'>Join Now</button>
         </form>
         </div>
     </>
