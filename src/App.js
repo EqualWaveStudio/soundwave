@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
-import MainHome from '../src/Components/Home/MainHome';
-import MainDiscover from '../src/Components/Discover/MainDiscover';
-import MainJoin from '../src/Components/Join/MainJoin';
+import MainHome from './Components/Home/MainHome';
+import MainDiscover from './Components/Discover/MainDiscover';
+import MainJoin from './Components/Join/MainJoin';
 import Footer from './Components/Footer/Footer';
+import FormValidation from './Components/Join/FormValidation';
 
 
 const App = () => {
@@ -12,6 +13,8 @@ const App = () => {
       <MainHome />
       <MainDiscover />
       <MainJoin />
+      {/* <Fom />  */}
+      <FormValidation />
       <Footer />
     </div>
   );
