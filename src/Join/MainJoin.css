@@ -1,3 +1,10 @@
+p {
+  color: #E01885;
+}
+span {
+  color: white;
+}
+
 body{
     background-color: var(--dark-blue);
     margin: 0;

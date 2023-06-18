@@ -2,6 +2,8 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import '../Join/MainJoin';
 
+
+
 const Form = () => {
   const { register, handleSubmit } = useForm() 
  
@@ -27,9 +29,14 @@ const Form = () => {
             </div>
             <button type='submit' className='button'>Join Now</button>
         </form>
+        
+        
+  
         </div>
     </>
   )
 }
+
+
 
 export default Form

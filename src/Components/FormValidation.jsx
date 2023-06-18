@@ -1,16 +1,28 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import '../Join/MainJoin';
-
+import Swal from 'sweetalert2';
 
 const FormValidation = () => {
   const { register, handleSubmit, formState: {errors} } = useForm() 
  
   const customSubmit = (data) => {
-     // console.log(data)
+     //console.log(data)
       /*con esta función se que datos se capturan y lo veo en consola*/
-
-      alert("The form has been filled out successfully!")
+      Swal.fire({
+        icon: 'success',
+        title: "<p>Tanks for joining us!</p>",
+        text: 'Check your email and follow the instructions',
+        showConfirmButton: false,
+        timer: 5000,
+        background: '#3E2D40',
+        backdrop: true,
+        allowEscapeKey: true,
+        showCloseButton: true,
+        closeButtonAriaLabel: 'Close the window',
+        
+        });
+      
   }
   return (
     <>
