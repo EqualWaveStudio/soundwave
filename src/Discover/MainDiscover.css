@@ -2,10 +2,6 @@ body {
     background-color: var(--dark-blue);
     color: white;
 }
-
-/*main {
-    margin-left: 3rem;
-}*/
   
 .main-discover-container {
     width: 100vw;
@@ -24,7 +20,7 @@ h1 {
 
 p {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .icons-discover {
@@ -59,13 +55,10 @@ p {
     justify-content: center;
 }
 
-@media only screen and (max-width: 575px) {
-    /*main {
-        margin 2rem;
-    }*/
+@media only screen and (max-width: 600px) {
     .main-discover-container{
         width: 90%;
-        margin: 1.5rem;
+        margin: 0 1.5rem;
         flex-direction: column;
         justify-content: center;
     }
@@ -105,3 +98,27 @@ p {
     }
 }
 
+@media only screen and (min-width: 601px) and (max-width: 999px){
+    .main-discover-container{
+        width: 100%;
+        height: 100%;
+        margin-top: 10rem;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icons-discover {
+        padding: 1rem;
+        gap: 1.2rem;
+    }
+
+    .covers {
+        width: 19rem;
+        height: 19rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        padding: 0 1rem;
+    }
+}
