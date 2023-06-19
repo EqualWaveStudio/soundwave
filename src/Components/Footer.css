@@ -3,29 +3,27 @@
 }
 
 .Footer-container {
+  font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #1E1E1E;
   width: 100%;
-  height: 5vh;
+  height: 5%;
   position: absolute;
   bottom: 0;
+
   
     
 }
 
 .Footer-Left {
-  width: 30vh;
-  height: 5vh;
   display: flex;
   justify-content: space-around;
 
 }
 
 .Footer-Rigth {
-  width: 30vh;
-  height: 5vh;
   display: flex;
   justify-content: space-around;
   

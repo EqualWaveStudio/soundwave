@@ -1,12 +1,8 @@
 import React from 'react';
-<<<<<<< HEAD
-import '../Footer/Footer.css';
-=======
 import './MainHome.css';
 import girlPhoto from '../assets/img/landing-page-girl.png'
 import ButtonJoin from '../Components/ButtonJoin';
 import '../Components/ButtonJoin.css';
->>>>>>> 5286921f17c963ab509f606c52f1098c907a54ed
 
 const Main = () => {
   return (
