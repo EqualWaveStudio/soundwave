@@ -1,0 +1,17 @@
+.join-now{
+    background-color: var(--blue-btn);
+    color: white;
+    padding: 0.8rem 1rem;
+    margin-top: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .join-now{
+     
+        font-size: 2rem;
+    }
+}

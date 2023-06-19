@@ -1,24 +1,27 @@
 import './App.css';
 import React from 'react';
-import MainHome from './Components/Home/MainHome';
-import MainDiscover from './Components/Discover/MainDiscover';
-import MainJoin from './Components/Join/MainJoin';
-import Footer from './Components/Footer/Footer';
-import FormValidation from './Components/Join/FormValidation';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import MainHome from './Home/MainHome';
+import Footer from './Components/Footer';
+import MainJoin from './Join/MainJoin';
+import MainDiscover from './Discover/MainDiscover'
 
 
 const App = () => {
   return (
-    <div className="App">
-      <MainHome />
-      <MainDiscover />
-      <MainJoin />
-      {/* <Fom />  */}
-      <FormValidation />
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/discover" element={<MainDiscover />} />
+          <Route path="/join" element={<MainJoin />} />
+          <Route path="/" element={<MainHome />} />
+        </Routes>
       <Footer />
     </div>
+    </Router>
   );
 };
 
 export default App;
-
