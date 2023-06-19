@@ -11,7 +11,7 @@ const FormValidation = () => {
       /*con esta función se que datos se capturan y lo veo en consola*/
       Swal.fire({
         icon: 'success',
-        title: "<p>Tanks for joining us!</p>",
+        title: "<p className='formText'>Tanks for joining us!</p>",
         text: 'Check your email and follow the instructions',
         showConfirmButton: false,
         timer: 5000,

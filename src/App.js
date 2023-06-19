@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import MainHome from './Home/MainHome';
 import Footer from './Components/Footer';
 import MainJoin from './Join/MainJoin';
-import FormValidation from './Components/FormValidation';
+import MainDiscover from './Discover/MainDiscover'
 
 
 const App = () => {
@@ -18,8 +18,6 @@ const App = () => {
           <Route path="/join" element={<MainJoin />} />
           <Route path="/" element={<MainHome />} />
         </Routes>
-            {/* <Form />  */}
-        <FormValidation />
       <Footer />
     </div>
     </Router>
