@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Join/MainJoin';
-import Form from '../Components/Form';
+import Form from '../Components/FormValidation';
 import './MainJoin.css'
 
 
