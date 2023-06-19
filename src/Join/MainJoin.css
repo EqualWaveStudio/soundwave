@@ -1,27 +1,29 @@
- .formText {
+
+.formText {
   color: #E01885;
 }
 span {
   color: white;
 }
 
-body{
-    background-color: var(--dark-blue);
-    margin: 0;
-    height: 100vh;
-    font-size: 1.5rem;
-    color: white;
-}
-main{
-  width: 100vw;;
-  height: 100%;
-  overflow: hidden; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
+h2 {
     font-weight: 400;
     font-size: 3.9rem;
     }
+
+@media only screen and (max-width: 390px) {
+  h2 {
+    font-size: 35px;
+    background-color: green;
+    
+   }
+ }
 
 .content{
     width: 100%;
@@ -32,6 +34,15 @@ h1 {
     align-items: flex-end;
     overflow: hidden;
 }
+@media only screen and (max-width: 390px) {
+  .content  {
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+}
 
 .text {
     width: 50vw;
@@ -40,7 +51,17 @@ h1 {
     color: white; 
     z-index: 1;
   }
-  
+  @media only screen and (max-width: 390px) {
+    .text {
+      background-color: #ecf011;
+      position: absolute;
+      left: 3vh;
+      padding: 5px;
+
+      
+    }
+  }
+
 .pink-text {
     color: var(--pink-dark);
 
@@ -70,7 +91,21 @@ h1 {
     align-items: center;
   
 }
+@media only screen and (max-width: 390px) {
+  .container {
+    background-color: #E01885;
+    left: 15vh;
+    margin-top: 20vh;
+  }
+}
 
+@media only screen and (max-width: 390px) {
+  .content {
+    background-color: #82eee9;
+    width: 100%;
+    height: 100%;
+  }
+}
 .form-control .label-text {
   text-align: left;
 }
