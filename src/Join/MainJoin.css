@@ -12,15 +12,13 @@ span {
   box-sizing: border-box;
 }
 
-h2 {
+h1 {
     font-weight: 400;
     font-size: 3.9rem;
     }
 
 @media only screen and (max-width: 390px) {
-  h2 {
-    font-size: 35px;
-    background-color: green;
+  h1 {
     
    }
  }
@@ -53,11 +51,9 @@ h2 {
   }
   @media only screen and (max-width: 390px) {
     .text {
-      background-color: #ecf011;
       position: absolute;
-      left: 3vh;
-      padding: 5px;
-
+      left: 10vh;
+      padding: 6px;
       
     }
   }
@@ -93,15 +89,17 @@ h2 {
 }
 @media only screen and (max-width: 390px) {
   .container {
-    background-color: #E01885;
-    left: 15vh;
     margin-top: 20vh;
+    position: absolute;
+    margin-left: -22vh;
+    width: 40vh;
+    font-size: 4vw;
+    align-items: center;
   }
 }
 
 @media only screen and (max-width: 390px) {
   .content {
-    background-color: #82eee9;
     width: 100%;
     height: 100%;
   }
