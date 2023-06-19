@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main-content">
           
           <div className='photo'>
-          <img className="girl-photo" src={girlPhoto} alt="Mujer afro descendiente con audifonos escuchando musica" />
+          <img className="girl-photo" src={girlPhoto} alt="Mujer afro descendiente con audifonos escuchando y disfrutando musica" />
           </div>
 
           <div className='main-text'>
