@@ -1,4 +1,4 @@
-p {
+ .formText {
   color: #E01885;
 }
 span {
@@ -15,13 +15,14 @@ body{
 main{
   width: 100vw;;
   height: 100%;
-  overflow: hidden;  
-h1{
+  overflow: hidden; 
+}
+
+h1 {
     font-weight: 400;
     font-size: 3.9rem;
     }
 
-}
 .content{
     width: 100%;
     height: 100%;
@@ -34,11 +35,10 @@ h1{
 
 .text {
     width: 50vw;
-    margin-bottom: 15rem;
+    margin-bottom: 35rem;
     padding: 0 5rem;
     color: white; 
     z-index: 1;
-    
   }
   
 .pink-text {
@@ -56,8 +56,6 @@ h1{
     margin-top: 1vw;
     margin-left: 2.5vw;
     margin-right: 2.1vw;
-    
-
   }
 
 .container {
@@ -90,8 +88,6 @@ h1{
     width: 76%;   
     display: block;
     margin: auto;
-
-
 }
   
 .button:hover {
@@ -130,11 +126,10 @@ h1{
     border: 1px solid var(--purple);
     border-radius: 0.3vw;
     padding: 1vh 6.3vh 1vh;
-    width: 80%;
+    width: 90%;
     outline: none;
     color: white;
     padding-left: 1vw;
-        
   }
 
   small {

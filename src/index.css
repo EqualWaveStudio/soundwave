@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-  --purple-bg: #1E1E1E;
+  --purple-bg: #2F303A;
   --dark-pink: #3E2D40;
   --dark-blue: #303045;
   --blue-btn: #2250A3;
   --dark-purple: #202027;
+  --pink-circle: #bc3a801a;
+  --blue-circle:#3457b21a;
 }
 
 * {
@@ -19,3 +21,4 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
