@@ -12,7 +12,7 @@ const MainJoin = () => {
                         
               <div className='text'>
                 <h2>
-                Join the <span className="pink-text">fun.</span>
+                <b>Join the </b><span className="pink-text"><b>fun.</b></span>
                 </h2>
                  </div>
                 
