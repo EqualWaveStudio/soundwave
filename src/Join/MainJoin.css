@@ -187,18 +187,3 @@ h2 {
   small {
     color: var(--pink-dark);
   }
-    
-  @media only screen and (max-width: 390px) {
-    .Footer-container {
-      width: 100%;
-      position: absolute;
-      margin-bottom: -15vh;
-    }
-  }
-
-  @media only screen and (max-width: 390px) {
-    .Footer-Right {
-      background-color: yellowgreen;
-      margin-left: 10vh;
-    }
-  }
