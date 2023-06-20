@@ -15,7 +15,7 @@ const Main = () => {
           </div>
 
           <div className='main-text'>
-            <h1>Feel de music</h1>
+            <h1>Feel The music</h1>
             <p>Stream over 20 thousand songs with one click</p>
             <ButtonJoin />
           </div>
