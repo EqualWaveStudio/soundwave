@@ -21,9 +21,9 @@ const Buttons = () => {
       return (
         // <div className='Footer-container'>
       <div className='Footer-Right'>
-      <img className="logors" src={ LogoFacebook } alt="LogoFacebook" />
+      <img className="logoRs" src={ LogoFacebook } alt="LogoFacebook" />
         <Link to= "https://twitter.com/?lang=es"  className="rs-button">Facebook</Link>
-        <img className="logors" src={ LogoTwitter } alt="LogoTwitter" />
+        <img className="logoRs" src={ LogoTwitter } alt="LogoTwitter" />
         <Link to="https://es-es.facebook.com/" className="rs-button">Twitter</Link>
       </div>
       // </div>

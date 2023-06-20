@@ -6,19 +6,20 @@ body {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  margin-right: 13vw;
   
-}
-
-.rs-button{
-  margin: 10%;
 }
 
 .t-button{
   margin-right: 1vw;
+}
+
+.rs-button {
+  padding: 3px;
 
 }
 
-.logors {
+.logoRs {
   margin-left: -25vw;
   margin-right: 10%;
   width: 12px;
@@ -52,8 +53,7 @@ body {
     display: flex;
     margin-left: 25%;
     order: 1;
-    margin-top: 8px;
-    
+        
   }
 
   .Footer-Right {
@@ -62,8 +62,9 @@ body {
     justify-content: center;
     align-items: center;
     order: 2;
-  }
+ 
   
+  } 
 
   
   
