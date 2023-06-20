@@ -1,37 +1,77 @@
-:hover {
-    color: white
+body {
+  overflow: hidden;
+}
+
+.t-button, .rs-button {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.rs-button{
+  margin: 10%;
+}
+
+.t-button{
+  margin-right: 1vw;
+
+}
+
+.logors {
+  margin-left: -25vw;
+  margin-right: 10%;
+  width: 12px;
+  height: 12px;
+
+}
+
+.hover-t-buttons:hover, .rs-button:hover {
+  color: var(--dark-blue);
+
   }
   
-  .Footer-container {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #1E1E1E;
-    width: 100%;
-    height: 5vh;
-    height: 5%;
-    position: absolute;
+  .footer {
+    position: fixed;
+    left: 0;
     bottom: 0;
+    font-size: 1vw;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    text-align: center;
+    height: 5%;
+
+
+}
   
-  
-  
-  }
-  
+ 
   .Footer-Left {
-    width: 30vh;
-    height: 5vh;
     display: flex;
-    justify-content: space-around;
-    align-items: right;
-    position: absolute;
-  
+    margin-left: 25%;
+    order: 1;
+    margin-top: 8px;
+    
   }
-  
+
   .Footer-Right {
-    width: 30vh;
-    height: 5vh;
     display: flex;
-    justify-content: space-around;
-  
+    margin-left: 60%;
+    justify-content: center;
+    align-items: center;
+    order: 2;
   }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
