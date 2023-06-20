@@ -1,14 +1,63 @@
-:hover {
-    color: white
+body {
+  overflow: hidden;
+}
+
+.t-button, .rs-button {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 13vw;
+  
+}
+
+.t-button{
+  margin-right: 1vw;
+}
+
+.rs-button {
+  padding: 3px;
+
+}
+
+.logoRs {
+  margin-left: -25vw;
+  margin-right: 10%;
+  width: 12px;
+  height: 12px;
+
+}
+
+.hover-t-buttons:hover, .rs-button:hover {
+  color: var(--dark-blue);
+
   }
   
-  .Footer-container {
-    font-size: 15px;
-    display: flex;
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 1vw;
     align-items: center;
     justify-content: center;
     background-color: #1E1E1E;
     width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    text-align: center;
+    height: 5%;
+
+
+}
+  
+ 
+  .Footer-Left {
+    display: flex;
+    margin-left: 25%;
+    order: 1;
+        
+  }
+
     height: 5vh;
     position: absolute;
     bottom: 0;
@@ -23,10 +72,24 @@
     width: 3vh;
     height: 5vh;
     display: flex;
-    justify-content: space-between;
-    margin-left: 90vh;
+    margin-left: 60%;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+ 
   
-  }
+  } 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   .logoFacebook {
     width: 15px;
