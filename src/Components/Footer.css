@@ -47,6 +47,13 @@ body {
   height: 5%;
 
 }
+@media only screen and (min-width: 390px) and (max-width: 844px){
+  .Footer-Left {
+   background-color: yellow;
+   font-size: 10px;
+
+  }
+}
 
 .Footer-Left {
   display: flex;
