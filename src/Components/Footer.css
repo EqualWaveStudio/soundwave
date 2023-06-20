@@ -6,11 +6,10 @@
     font-size: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1E1E1E;
     width: 100%;
     height: 5vh;
-    height: 5%;
     position: absolute;
     bottom: 0;
   
@@ -18,20 +17,23 @@
   
   }
   
-  .Footer-Left {
-    width: 30vh;
+
+  
+  .Footer-Right {
+    width: 3vh;
     height: 5vh;
     display: flex;
-    justify-content: space-around;
-    align-items: right;
-    position: absolute;
+    justify-content: space-between;
+    margin-left: 90vh;
   
   }
   
-  .Footer-Right {
-    width: 30vh;
-    height: 5vh;
-    display: flex;
-    justify-content: space-around;
+  .logoFacebook {
+    width: 15px;
+    height: 15px;
   
+  }
+  .logoTwitter {
+    width: 15px;
+    height: 15px;
   }

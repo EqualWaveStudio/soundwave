@@ -12,16 +12,14 @@ span {
   box-sizing: border-box;
 }
 
-h1 {
+h2 {
     font-weight: 400;
     font-size: 3.9rem;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: -20vh;
     }
 
-@media only screen and (max-width: 390px) {
-  h1 {
-    
-   }
- }
 
 .content{
     width: 100%;
