@@ -55,6 +55,18 @@ p {
     justify-content: center;
 }
 
+.micro:hover {
+    background-color: var(--blue-btn);
+}
+
+.albums:hover {
+    background-color: var(--blue-btn);
+}
+
+.more:hover {
+    background-color: var(--blue-btn);
+}
+
 @media only screen and (max-width: 600px) {
     .main-discover-container{
         width: 90%;
