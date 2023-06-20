@@ -32,71 +32,46 @@ body {
 
   }
   
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    font-size: 1vw;
-    align-items: center;
-    justify-content: center;
-    background-color: #1E1E1E;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    color: white;
-    text-align: center;
-    height: 5%;
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 1vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #1E1E1E;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  color: white;
+  text-align: center;
+  height: 5%;
 
 }
-  
- 
-  .Footer-Left {
-    display: flex;
-    margin-left: 25%;
-    order: 1;
-        
-  }
 
-    height: 5vh;
-    position: absolute;
-    bottom: 0;
-  
-  
-  
-  }
-  
+.Footer-Left {
+  display: flex;
+  margin-left: 25%;
+  order: 1;
+       
+}
 
-  
-  .Footer-Right {
-    width: 3vh;
-    height: 5vh;
-    display: flex;
-    margin-left: 60%;
-    justify-content: center;
-    align-items: center;
-    order: 2;
- 
-  
-  } 
+.Footer-Right {
+  width: 3vh;
+  height: 5vh;
+  display: flex;
+  margin-left: 60%;
+  justify-content: center;
+  align-items: center;
+  order: 2; 
+} 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .logoFacebook {
-    width: 15px;
-    height: 15px;
-  
-  }
-  .logoTwitter {
-    width: 15px;
-    height: 15px;
-  }
+.logoFacebook {
+  width: 15px;
+  height: 15px;
+}
+
+.logoTwitter {
+  width: 15px;
+  height: 15px;
+}
