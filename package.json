@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
+    "link": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.0-next.1",
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
+    "router-dom": "^2.2.11",
     "sweetalert2": "^11.7.12",
     "web-vitals": "^2.1.4"
   },
