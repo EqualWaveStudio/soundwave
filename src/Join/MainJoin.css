@@ -11,6 +11,16 @@ span {
   padding: 0;
   box-sizing: border-box;
 }
+@media only screen and (max-width: 390px) {
+  *  {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+  }
+}
+
 
 h2 {
     font-weight: 400;
@@ -18,6 +28,16 @@ h2 {
     position: absolute;
     margin-top: 20vh;
     margin-left: -20vh;
+    }
+
+    @media only screen and (max-width: 390px) {
+      h2  {
+        font-size: 53px;
+        position: absolute;
+        margin-left: -4vh;
+        bottom: 10vh;
+
+      }
     }
 
 
@@ -29,15 +49,6 @@ h2 {
     justify-content: space-evenly;
     align-items: flex-end;
     overflow: hidden;
-}
-@media only screen and (max-width: 390px) {
-  .content  {
-    width: 50vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-  }
 }
 
 .text {
@@ -72,7 +83,22 @@ h2 {
     margin-top: 1vw;
     margin-left: 2.5vw;
     margin-right: 2.1vw;
+}
+
+@media only screen and (max-width: 390px) {
+  .container div {
+    justify-content: left;
+    align-items: left;    
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    margin-right: 2.1vw;
+    
   }
+}
 
 .container {
     width: 30%;
@@ -88,21 +114,17 @@ h2 {
 }
 @media only screen and (max-width: 390px) {
   .container {
-    margin-top: 20vh;
+    margin-top: 15vh;
     position: absolute;
-    margin-left: -22vh;
+    margin-left: -22.3vh;
     width: 40vh;
     font-size: 4vw;
     align-items: center;
+    padding: 7px;
   }
 }
 
-@media only screen and (max-width: 390px) {
-  .content {
-    width: 100%;
-    height: 100%;
-  }
-}
+
 .form-control .label-text {
   text-align: left;
 }
@@ -151,8 +173,6 @@ h2 {
     
 }
 
-
-
 .transparent-input {
     background-color: transparent;
     border: 1px solid var(--purple);
@@ -168,3 +188,17 @@ h2 {
     color: var(--pink-dark);
   }
     
+  @media only screen and (max-width: 390px) {
+    .Footer-container {
+      width: 100%;
+      position: absolute;
+      margin-bottom: -15vh;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .Footer-Right {
+      background-color: yellowgreen;
+      margin-left: 10vh;
+    }
+  }
