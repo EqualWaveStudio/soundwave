@@ -21,30 +21,26 @@ main{
 }
 
 .main-content{
+    width: 100vw;
+    height: auto;
     position: fixed;
     bottom: 0;
-    margin-top: 6.2rem;
-    width: 100vw;
     position: absolute;
     display: flex;
     justify-content: space-around;
     overflow: hidden;
 }
 
-.photo{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-}
 
 .girl-photo{
+    width: 25rem;
     z-index: 1;
 }
 
 .main-text{
-    width: 50vw;
+    width: 40vw;
     margin-top: 5rem;
-    padding-right: 8rem;
+ 
 }
 
 h1{
@@ -90,11 +86,63 @@ font-size: 1.3rem;
 }
 
 
-@media only screen and (max-width: 575px){
 
-    .photo{
-        display:none;
-    }  
+
+@media only screen and (min-width: 601px) and (max-width: 991px){
+
+    .main-content{
+          height: 100vh;
+          flex-direction: column-reverse;
+          overflow: hidden;
+          align-items: center;
+          justify-content: space-between;
+          position: fixed;
+          bottom: 0;
+          
+      }
+
+      .main-text{
+          padding: 0;
+          width: 80vw;
+          margin-top: 20vh;
+        
+      }
+
+      h1{
+        font-size: 5rem;
+      }
+
+      p{
+        font-size: 2rem;
+      }
+
+      .girl-photo{
+        width: 50vw;
+        z-index: 1;
+        }
+        
+        .pink-cirle{
+            top: 80%;
+            left: -5%;
+        }
+        
+        .blue-cirle{
+            top: 10%;
+            left: 20%;
+        }
+    
+        .big-blue-cirle{
+            top: calc(100% - 5%);
+            left: 98%;
+        }
+        
+}
+
+@media only screen and (max-width: 600px){
+
+    .girl-photo{
+        display: none;
+    }
 
     .main-content{
         width: 100%;
@@ -102,7 +150,7 @@ font-size: 1.3rem;
 
     .main-text{
         width: 100%;
-        margin-bottom: 30vh;
+        margin-bottom: 35vh;
         padding: 0 1.5rem; 
     }
 
@@ -124,55 +172,4 @@ font-size: 1.3rem;
         top: calc(100% - 5%);
         left: 98%;
     }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px){
-
-    .main-content{
-        height: 100vh;
-        padding: 0;
-          flex-direction: column-reverse;
-          overflow: hidden;
-          justify-content: center;
-          align-items: center;
-          margin-bottom: 0;
-      }
-
-      .main-text{
-          padding: 0 1rem;
-          width: 80vw;
-          margin-top: 30vh;
-          margin-bottom: 10vh;
-      }
-
-      h1{
-        font-size: 5rem;
-      }
-
-      p{
-        font-size: 2rem;
-      }
-
-      .girl-photo{
-        height: 50vh;
-        width: 50vw;
-        z-index: 1;
-        }
-        
-        .pink-cirle{
-            top: 80%;
-            left: -5%;
-        }
-        
-        .blue-cirle{
-            top: 10%;
-            left: 20%;
-        }
-    
-        .big-blue-cirle{
-            top: calc(100% - 5%);
-            left: 98%;
-        }
-        
 }
