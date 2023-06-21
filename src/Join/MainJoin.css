@@ -1,189 +1,55 @@
-
-.formText {
-  color: #E01885;
+.content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  overflow: hidden;
 }
-span {
-  color: white;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-@media only screen and (max-width: 390px) {
-  *  {
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding: 0;
-
-  }
-}
-
 
 h2 {
-    font-weight: 400;
-    font-size: 2.9rem;
-    position: absolute;
-    margin-top: 20vh;
-    margin-left: -20vh;
-    }
-
-    @media only screen and (max-width: 390px) {
-      h2  {
-        font-size: 53px;
-        position: absolute;
-        margin-left: -4vh;
-        bottom: 10vh;
-
-      }
-    }
-
-
-.content{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    overflow: hidden;
-}
-
-.text {
-    width: 50vw;
-    margin-bottom: 35rem;
-    padding: 0 5rem;
-    color: white; 
-    z-index: 1;
+  font-weight: bold;
+  font-size: 2.9rem;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: -20vh;
+  color: white;
   }
-  @media only screen and (max-width: 390px) {
-    .text {
+
+  .pink-text {
+    color: var(--pink-dark);
+  }
+  
+  .pink-circle{
+      background-color: var(--dark-pink);
+      border-radius: 50%;
       position: absolute;
-      left: 10vh;
-      padding: 6px;
-      
+      top: 20%;
+      left: -13%;
+      opacity: 1;
+      width: 45%;
+      padding-bottom: 45%;
+  }
+  
+  .purple-circle{
+      background-color: var(--dark-purple);
+      border-radius: 50%;
+      position:absolute;
+      bottom: 55%;
+      left: 25%;
+      opacity: 0.3;
+      width: 30%;
+      padding-bottom: 30%;
+      z-index: -2; 
+  }
+  
+    small {
+      color: var(--pink-dark);
     }
-  }
-
-.pink-text {
-    color: var(--pink-dark);
-
-}
 
 
-.container div{
-    justify-content: left;
-    align-items: left;    
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 1vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-    margin-left: 2.5vw;
-    margin-right: 2.1vw;
-}
-
-@media only screen and (max-width: 390px) {
-  .container div {
-    justify-content: left;
-    align-items: left;    
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 1vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-    margin-left: 10vw;
-    margin-right: 2.1vw;
-    
-  }
-}
-
-.container {
-    width: 30%;
-    padding-bottom: 3%;
-    background-color: var(--dark-purple);
-    position: absolute;
-    top: 25%;
-    left: 55%;
-    border-radius: 5%;
-    font-size: 1vw;
-    align-items: center;
-  
-}
-@media only screen and (max-width: 390px) {
-  .container {
-    margin-top: 15vh;
-    position: absolute;
-    margin-left: -22.3vh;
-    width: 40vh;
-    font-size: 4vw;
-    align-items: center;
-    padding: 7px;
-  }
-}
 
 
-.form-control .label-text {
-  text-align: left;
-}
 
-.button {
-    background-color: var(--blue-btn);
-    color: white;
-    padding: 1.3vh;
-    margin-top: .5rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-weight: bold;
-    cursor: pointer; 
-    font-size: 2vh;
-    width: 76%;   
-    display: block;
-    margin: auto;
-}
-  
-.button:hover {
-  background-color: var(--pink-dark);
-  color: var(--dark-purple);
-}
 
-.pink-circle{
-    background-color: var(--dark-pink);
-    border-radius: 50%;
-    position: absolute;
-    top: 20%;
-    left: -13%;
-    opacity: 1;
-    width: 45%;
-    padding-bottom: 45%;
-
-}
-
-.purple-circle{
-    background-color: var(--dark-purple);
-    border-radius: 50%;
-    position:absolute;
-    bottom: 55%;
-    left: 25%;
-    opacity: 0.3;
-    width: 30%;
-    padding-bottom: 30%;
-    
-}
-
-.transparent-input {
-    background-color: transparent;
-    border: 1px solid var(--purple);
-    border-radius: 0.3vw;
-    padding: 1vh 6.3vh 1vh;
-    width: 90%;
-    outline: none;
-    color: white;
-    padding-left: 1vw;
-  }
-
-  small {
-    color: var(--pink-dark);
-  }

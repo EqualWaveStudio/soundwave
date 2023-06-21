@@ -2,30 +2,37 @@ import React from 'react';
 import '../Join/MainJoin';
 import Form from '../Components/FormValidation';
 import './MainJoin.css'
+import '../Components/FormValidation.css';
+import Footer from '../Components/Footer';
 
 
 const MainJoin = () => {
     return(
+      <>
           <main>
       
               <div className="content">
                         
               <div className='text'>
                 <h2>
-                <b>Join the </b><span className="pink-text"><b>fun.</b></span>
+                Join the<span className="pink-text"> fun.</span>
                 </h2>
                  </div>
                 
                 <div className='pink-circle'></div>
-                <div className='purple-circle'></div>
+                
                                 
               </div>
+              <div className='purple-circle'></div>
               <div> 
              <Form />
               </div>
               
             
           </main>
+
+<Footer />
+</>
       
     )
       };

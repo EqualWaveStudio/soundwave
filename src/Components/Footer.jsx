@@ -7,26 +7,32 @@ import LogoTwitter from '../assets/img/vector(1).png';
 
 const Buttons = () => {
   return (
-    // <div className='Footer-container'>
-      <div className="Footer-Left">
-        <Link to="./discover" className="t-button hover-t-buttons">About Us</Link>
-        <Link to="./join" className="t-button hover-t-buttons">Contact</Link>
+
+    <div className="Footer-Left">
+      <Link to="./discover" className="t-button hover-t-buttons">About Us</Link>
+      <Link to="./join" className="t-button hover-t-buttons">Contact</Link>
+    </div>
+
+
+  );
+};
+
+const Pages = () => {
+  return (
+
+    <div className='Footer-Right'>
+
+      <div className='facebook'>
+        <img className="logoRs" src={LogoFacebook} alt="LogoFacebook" />
+        <Link to="https://twitter.com/?lang=es" className="rs-button">Facebook</Link>
       </div>
-      // </div>
 
-    );
-  };
-
-    const Pages = () => {
-      return (
-        // <div className='Footer-container'>
-      <div className='Footer-Right'>
-      <img className="logoRs" src={ LogoFacebook } alt="LogoFacebook" />
-        <Link to= "https://twitter.com/?lang=es"  className="rs-button">Facebook</Link>
-        <img className="logoRs" src={ LogoTwitter } alt="LogoTwitter" />
+      <div className='twitter'>
+        <img className="logoRs" src={LogoTwitter} alt="LogoTwitter" />
         <Link to="https://es-es.facebook.com/" className="rs-button">Twitter</Link>
       </div>
-      // </div>
+    </div>
+
 
   );
 };

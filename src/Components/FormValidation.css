@@ -1,0 +1,83 @@
+
+.container {
+    width: 30%;
+    padding-bottom: 3%;
+    background-color: var(--dark-purple);
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    border-radius: 5%;
+    font-size: 1vw;
+    align-items: center;
+  
+  }
+  
+  .form-control .label-text {
+    text-align: left;
+  }
+  
+    
+  .button:hover {
+    background-color: var(--pink-dark);
+    
+  }
+  
+  
+  .container div{
+    justify-content: left;
+    align-items: left;    
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+    margin-right: 2.1vw;
+  }
+  
+  .text {
+    width: 50vw;
+    margin-bottom: 35rem;
+    padding: 0 5rem;
+    color: white; 
+    z-index: 1;
+  }
+  
+  .formText {
+    color: #E01885;
+  }
+  
+  
+  
+  
+  
+  
+    .transparent-input {
+      background-color: transparent;
+      border: 1px solid var(--purple);
+      border-radius: 0.3vw;
+      padding: 1vh 6.3vh 1vh;
+      width: 100%;
+      outline: none;
+      color: white;
+      padding-left: 1vw;
+    }
+  
+  
+  .button {
+    width: 78%;
+    background-color: var(--blue-btn);
+    color: white;
+    padding: 1.3vh;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer; 
+    font-size: 2vh;
+    
+    display: block;
+    margin: auto;
+  }
+  
+  

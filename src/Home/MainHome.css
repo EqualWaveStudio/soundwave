@@ -40,6 +40,7 @@ main{
 .main-text{
     width: 40vw;
     margin-top: 5rem;
+    padding-right: 6em;
  
 }
 
@@ -69,8 +70,8 @@ font-size: 1.3rem;
     background-color: var(--blue-circle);
     border-radius: 50%;
     position:absolute;
-    top: 15%;
-    left: 25%;
+    top: 5%;
+    left: 18%;
 }
 
 .big-blue-cirle{
@@ -79,7 +80,7 @@ font-size: 1.3rem;
     background-color: var(--blue-circle);
     border-radius: 50%;
     position: absolute;
-    top: calc(100% - 10%);
+    top: calc(100% - 15%);
     left: 95%;
     transform: translate(-50%, -50%);
     transition: opacity 0.5s ease-in-out;
