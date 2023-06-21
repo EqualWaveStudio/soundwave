@@ -13,7 +13,9 @@
     gap: 1rem;
 }
 
-  
+.logo-link{
+    text-decoration: none;;
+}
 .logo-title {
     font-size: 1.5rem;
     text-decoration: none;
@@ -43,8 +45,6 @@
     /* margin-top: 2rem; */
 }
   
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 575px){
 
 .logo-title {
@@ -53,7 +53,6 @@
 
 
 }
->>>>>>> dev
 
 
 
