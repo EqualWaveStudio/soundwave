@@ -3,7 +3,7 @@
   height: 5%;
   position: fixed;
   bottom: 0;
-  font-size: 1vw;
+  font-size: 1.5vw;
   background-color: #1E1E1E;
   display: flex;
   align-items: center;
@@ -26,6 +26,7 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 .hover-t-buttons:hover, .rs-button:hover {
@@ -53,3 +54,10 @@
   
 }
 
+
+@media only screen and (max-width: 600px) {
+  footer{
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}

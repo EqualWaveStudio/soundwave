@@ -9,7 +9,7 @@ import Footer from '../Components/Footer';
 const MainJoin = () => {
     return(
       <>
-          <main>
+          <main className='main-join'>
       
               <div className="content">
                         
@@ -17,19 +17,14 @@ const MainJoin = () => {
                 <h2>
                 Join the<span className="pink-text"> fun.</span>
                 </h2>
-                 </div>
-                
-                <div className='pink-circle'></div>
-                
-                                
-              </div>
-              <div className='purple-circle'></div>
-              <div> 
-             <Form />
+                 </div>               
               </div>
               
-            
+             
+              <Form />
           </main>
+          <div className='pink-circle'></div>
+          <div className='purple-circle'></div>
 
 <Footer />
 </>

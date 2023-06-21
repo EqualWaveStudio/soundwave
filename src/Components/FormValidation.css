@@ -1,57 +1,39 @@
-
 .container {
-    width: 30%;
-    padding-bottom: 3%;
+    width: 35%;
+    height: auto;
     background-color: var(--dark-purple);
-    position: absolute;
-    top: 25%;
-    left: 55%;
     border-radius: 5%;
     font-size: 1vw;
-    align-items: center;
-  
+    gap: 1rem;
+    padding: 1rem 2.5rem;
+  }
+
+  .container div{   
+    margin-top: 1.2rem;
+
   }
   
-  .form-control .label-text {
-    text-align: left;
+  .button {
+    width: 100%;
+    border-radius: 0.7vw;
+    background-color: var(--blue-btn);
+    color: white;
+    padding: 1.3vh;
+    margin-top: 1.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer; 
   }
   
     
   .button:hover {
     background-color: var(--pink-dark);
-    
   }
-  
-  
-  .container div{
-    justify-content: left;
-    align-items: left;    
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 1vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-    margin-left: 2.5vw;
-    margin-right: 2.1vw;
+
+  small {
+    color: var(--pink-dark);
   }
-  
-  .text {
-    width: 50vw;
-    margin-bottom: 35rem;
-    padding: 0 5rem;
-    color: white; 
-    z-index: 1;
-  }
-  
-  .formText {
-    color: #E01885;
-  }
-  
-  
-  
-  
-  
-  
+
     .transparent-input {
       background-color: transparent;
       border: 1px solid var(--purple);
@@ -64,20 +46,21 @@
     }
   
   
-  .button {
-    width: 78%;
-    background-color: var(--blue-btn);
-    color: white;
-    padding: 1.3vh;
-    margin-top: .5rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-weight: bold;
-    cursor: pointer; 
-    font-size: 2vh;
+    @media only screen and (min-width: 601px) and (max-width: 991px){
+      .container {
+        width: 50%;
+        height: 60%;
+        font-size: 3vw;
+      }
+      }
     
-    display: block;
-    margin: auto;
-  }
-  
-  
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          width: 100%;
+          height: 100%;
+          margin-top: 8rem;
+          margin-left: 3rem;
+          font-size: 5vw;
+         }
+      }
