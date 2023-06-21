@@ -1,6 +1,7 @@
 body {
     background-color: var(--dark-blue);
     color: white;
+    overflow: hidden;
 }
 .main-discover-container {
     width: 100vw;
@@ -29,7 +30,7 @@ p {
 }
 .covers {
     width: 23.75rem;
-    height: 23.75rem;
+    
 }
 .icons-discover div img {
     width: 2.5rem;
@@ -86,7 +87,6 @@ p {
     }
     .covers {
         width: 13.5rem;
-        height: 13.5rem;
         margin-left: 0.5rem;
     }
 }
@@ -102,14 +102,3 @@ p {
     }
 }
 
-    .icons-discover {
-        padding: 1rem;
-        gap: 1.2rem;
-    }
-    .covers {
-        width: 19rem;
-        height: 19rem;
-        margin-top: 1rem;
-        margin-left: 0.5rem;
-        padding: 0 1rem;
-    }

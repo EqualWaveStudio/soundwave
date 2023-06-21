@@ -5,12 +5,11 @@
     --dark-blue: #303045;
     --blue-btn: #2250A3;
     --dark-purple: #202027;
-    -dark-grey: #313351;
+    --dark-grey: #313351;
     --purple: #313351; 
     --pink: #3E2040;
     --grey: #2F303A;
-    --pink-dark: #E01885;
-  
+    --pink-dark: #E01885; 
 }
 
 * {
@@ -26,9 +25,3 @@ body {
 }
 
 
-@media only screen and (max-width: 600px) {
-  body{
-    width: 100%;
-    height: 100%;
-}
-}
