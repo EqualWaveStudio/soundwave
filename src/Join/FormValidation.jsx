@@ -53,8 +53,9 @@ const FormValidation = () => {
                     required: true,
                  })} className='transparent-input' />
                 {errors.password && <small>This field is required.</small>}
+                <button type='submit' className='button'>Join Now</button>
                 </div>
-            <button type='submit' className='button'>Join Now</button>
+           
         </form>
         </div>
     </>

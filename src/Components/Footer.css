@@ -1,121 +1,63 @@
-body {
-  overflow: hidden;
-}
-
-.t-button, .rs-button {
+.footer {
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+  font-size: 1.5vw;
+  background-color: #1E1E1E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
-  font-weight: bold;
-  text-decoration: none;
-  margin-right: 13vw;
-  
-}
-
-@media only screen and (min-width: 390px) and (max-width: 844px){
-  .rs-button {
-   margin-right: -1vh;
-   margin-top: 3.5vh;
-  }
-}
-
-.t-button{
-  margin-right: 1vw;
-}
-
-.rs-button {
-  padding: 3px;
+  padding: 1.5rem 10rem;
+ 
+ 
 
 }
+
 
 .logoRs {
-  margin-left: -25vw;
-  margin-right: 10%;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  margin-right: 0.5rem;
 
 }
 
-@media only screen and (min-width: 390px) and (max-width: 844px){
-  .logoRs {
-    background-color: #1E1E1E;
-    width: 18px;
-    height: 18px;
-    
-  }
+.rs-button, .t-button{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  
 }
 
 .hover-t-buttons:hover, .rs-button:hover {
-  color: var(--dark-blue);
+  color: var(--pink-dark);
 
   }
-  
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  font-size: 1vw;
-  align-items: center;
-  justify-content: center;
-  background-color: #1E1E1E;
-  width: 100%;
-  display: flex;
-  color: white;
-  text-align: center;
-  height: 5%;
-
-}
-
-@media only screen and (min-width: 390px) and (max-width: 844px){
-  .footer { 
-   font-size: 10px;
-   margin-right: -1vh;
-   display: flex;
-   align-items: end;
-  }
-}
-
-@media only screen and (min-width: 390px) and (max-width: 844px){
-  .Footer-Left {
-   position: absolute;
-   margin-right: 35vh;
-   font-size: 10px;
-   width: 15vh;
-   justify-content: space-evenly;
-  }
-}
-
-.Footer-Left {
-  display: flex;
-  margin-left: 25%;
-  order: 1;
-       
-}
-
-.Footer-Right {
-  width: 3vh;
-  height: 5vh;
-  display: flex;
-  margin-left: 60%;
-  justify-content: center;
-  align-items: center;
-  order: 2; 
-}
-
-@media only screen and (min-width: 390px) and (max-width: 844px){
-  .Footer-Right {
-   width: 15vh;
-   display: flex;
-   justify-content: space-between;
-   margin-left: 20vh;
-
-  }
-}
-
-.logoFacebook {
-  width: 15px;
-  height: 15px;
-}
 
 .logoTwitter {
   width: 15px;
   height: 15px;
+}
+
+.Footer-Left {
+  display: flex;
+  gap: 1rem;
+
+
+       
+}
+
+.Footer-Right {
+  display: flex;
+  gap: 1rem;
+
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  footer{
+    justify-content: space-between;
+    padding: 1rem;
+  }
 }

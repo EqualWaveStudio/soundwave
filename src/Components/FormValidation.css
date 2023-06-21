@@ -1,0 +1,66 @@
+.container {
+    width: 35%;
+    height: auto;
+    background-color: var(--dark-purple);
+    border-radius: 5%;
+    font-size: 1vw;
+    gap: 1rem;
+    padding: 1rem 2.5rem;
+  }
+
+  .container div{   
+    margin-top: 1.2rem;
+
+  }
+  
+  .button {
+    width: 100%;
+    border-radius: 0.7vw;
+    background-color: var(--blue-btn);
+    color: white;
+    padding: 1.3vh;
+    margin-top: 1.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer; 
+  }
+  
+    
+  .button:hover {
+    background-color: var(--pink-dark);
+  }
+
+  small {
+    color: var(--pink-dark);
+  }
+
+    .transparent-input {
+      background-color: transparent;
+      border: 1px solid var(--purple);
+      border-radius: 0.3vw;
+      padding: 1vh 6.3vh 1vh;
+      width: 100%;
+      outline: none;
+      color: white;
+      padding-left: 1vw;
+    }
+  
+  
+    @media only screen and (min-width: 601px) and (max-width: 991px){
+      .container {
+        width: 50%;
+        height: 60%;
+        font-size: 3vw;
+      }
+      }
+    
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          width: 100%;
+          height: 100%;
+          margin-top: 8rem;
+          margin-left: 3rem;
+          font-size: 5vw;
+         }
+      }

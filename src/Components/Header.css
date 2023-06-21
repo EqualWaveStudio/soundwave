@@ -1,10 +1,10 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 9.8rem;
 }
   
 .logo-container {
@@ -13,7 +13,9 @@
     gap: 1rem;
 }
 
-  
+.logo-link{
+    text-decoration: none;;
+}
 .logo-title {
     font-size: 1.5rem;
     text-decoration: none;
@@ -52,10 +54,22 @@
 }
 
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
     header{
         padding: 1rem;
     }
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+   
+.logo-title {
+    font-size: 1.5rem;
+}
+
 
 }

@@ -1,14 +1,14 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import '../Join/MainJoin';
+import './FormValidation.css';
 import Swal from 'sweetalert2';
 
 const FormValidation = () => {
   const { register, handleSubmit, formState: {errors} } = useForm() 
  
   const customSubmit = (data) => {
-     //console.log(data)
-      /*con esta función se que datos se capturan y lo veo en consola*/
+    
       Swal.fire({
         icon: 'success',
         title: "<p className='formText'>Tanks for joining us!</p>",

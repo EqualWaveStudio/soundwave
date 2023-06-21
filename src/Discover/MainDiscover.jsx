@@ -4,9 +4,12 @@ import PhotoMainDiscover from '../assets/img/covers.jpg';
 import IconoMicro from '../assets/img/microphone.svg';
 import IconoAlbums from '../assets/img/albums.svg';
 import IconoMore from '../assets/img/more.svg';
+import Footer from '../Components/Footer';
 
 const Main = () => {
   return (
+
+    <>
     <main>
       <div className='main-discover-container'>
         
@@ -39,6 +42,8 @@ const Main = () => {
       </div>
 
     </main>
+    <Footer />
+    </>
   );
 };
 
