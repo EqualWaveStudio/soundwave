@@ -6,7 +6,7 @@ import './ButtonJoin.css';
 const ButtonJoin = () => {
   return (
     <button className="join-now">
-        <Link to="/join" className="header-button"> Join Now</Link>
+        <Link to="/join" className="join-button"> Join Now</Link>
     </button>
   );
 };

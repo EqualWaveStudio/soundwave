@@ -9,6 +9,10 @@
     font-size: 1.2rem;
 }
 
+.join-button{
+    color: white;
+    text-decoration: none;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .join-now{
      
