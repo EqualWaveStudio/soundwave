@@ -17,15 +17,15 @@ _Project phases:_
 
 ## Desktop
 
-![HOME](public\DeskMainHome.png )
-![DISCOVER](public\DeskMainDiscover.png )
-![JOIN](public\DeskMainJoin.png )
+![HOME](public/DeskMainHome.png )
+![DISCOVER](public/DeskMainDiscover.png )
+![JOIN](public/DeskMainJoin.png )
 
 ## Movil
 
 ![Home](public/MainHome.png )
-![Discover](public\MainDiscover.png )
-![JOIN](public\MainJoin.png )
+![Discover](public/MainDiscover.png )
+![JOIN](public/MainJoin.png )
 
 
 ## 💻 Technologies
