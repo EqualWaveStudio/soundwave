@@ -1,8 +1,8 @@
 import React from 'react';
 import './MainHome.css';
-import girlPhoto from '../assets/img/landing-page-girl.png'
-import ButtonJoin from '../Components/ButtonJoin';
-import '../Components/ButtonJoin.css';
+import girlPhoto from '../../assets/img/landing-page-girl.png'
+import ButtonJoin from '../../Components/ButtonJoin/ButtonJoin';
+import '../../Components/ButtonJoin/ButtonJoin';
 
 const Main = () => {
   return (

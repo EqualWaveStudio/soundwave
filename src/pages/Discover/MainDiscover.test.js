@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import MainDiscover from './MainDiscover';
+import MainDiscover from './MainDiscover'
 
 describe('Render h1 component', () => {
   beforeEach(() => {
@@ -10,7 +10,7 @@ describe('Render h1 component', () => {
         <MainDiscover />
       </MemoryRouter>
     );
-  })
+    })
   
   test('Should have an h1', () => {
     const h1Element = screen.getByRole('heading', { level: 1 });
@@ -73,4 +73,4 @@ describe('Alt text for the images', () => {
 
     expect(imagen).toBeInTheDocument();  
   });
-});
+ });

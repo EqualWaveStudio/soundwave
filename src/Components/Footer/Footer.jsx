@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-import '../index.css';
-import LogoFacebook from '../assets/img/vector(2).png';
-import LogoTwitter from '../assets/img/vector(1).png';
+import '../../index.css';
+import LogoFacebook from '../../assets/img/vector(2).png';
+import LogoTwitter from '../../assets/img/vector(1).png';
 
 const Buttons = () => {
   return (
