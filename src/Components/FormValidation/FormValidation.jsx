@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import '../pages/Join/MainJoin';
+import '../../pages/Join/MainJoin';
 import './FormValidation.css';
 import Swal from 'sweetalert2';
 

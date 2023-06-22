@@ -1,9 +1,9 @@
 import React from 'react';
 import './MainJoin';
-import Form from '../../Components/FormValidation';
+import Form from '../../Components/FormValidation/FormValidation';
 import './MainJoin.css'
-import '../../Components/FormValidation.css';
-import Footer from '../../Components/Footer';
+import '../../Components/FormValidation/FormValidation.css';
+import Footer from '../../Components/Footer/Footer';
 
 
 const MainJoin = () => {

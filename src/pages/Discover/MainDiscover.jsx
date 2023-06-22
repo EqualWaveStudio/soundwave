@@ -4,7 +4,7 @@ import PhotoMainDiscover from '../../assets/img/covers.jpg';
 import IconoMicro from '../../assets/img/microphone.svg';
 import IconoAlbums from '../../assets/img/albums.svg';
 import IconoMore from '../../assets/img/more.svg';
-import Footer from '../../Components/Footer';
+import Footer from '../../Components/Footer/Footer';
 
 const Main = () => {
   return (
