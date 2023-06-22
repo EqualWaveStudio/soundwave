@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import '../Join/MainJoin';
+import '../pages/Join/MainJoin';
 import './FormValidation.css';
 import Swal from 'sweetalert2';
 
@@ -11,7 +11,7 @@ const FormValidation = () => {
     
       Swal.fire({
         icon: 'success',
-        title: "<p className='formText'>Tanks for joining us!</p>",
+        title: "<p className='s'>Tanks for joining us!</p>",
         text: 'Check your email and follow the instructions',
         showConfirmButton: false,
         timer: 5000,
