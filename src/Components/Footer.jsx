@@ -21,16 +21,16 @@ const Pages = () => {
   return (
 
     <div className='Footer-Right'>
-
-      <div className='facebook'>
-        <img className="logoRs" src={LogoFacebook} alt="LogoFacebook" />
-        <Link to="https://twitter.com/?lang=es" className="rs-button">Facebook</Link>
-      </div>
-
       <div className='twitter'>
         <img className="logoRs" src={LogoTwitter} alt="LogoTwitter" />
-        <Link to="https://es-es.facebook.com/" className="rs-button">Twitter</Link>
+        <Link to="https://twitter.com/?lang=es/" className="rs-button">Twitter</Link>
       </div>
+      <div className='facebook'>
+        <img className="logoRs" src={LogoFacebook} alt="LogoFacebook" />
+        <Link to="https://es-es.facebook.com/" className="rs-button">Facebook</Link>
+      </div>
+
+
     </div>
 
 
