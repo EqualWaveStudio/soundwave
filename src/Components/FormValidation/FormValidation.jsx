@@ -29,8 +29,8 @@ const FormValidation = () => {
         <div className='container'>
         <form onSubmit={ handleSubmit(customSubmit) }>
             <div className='form-control'>
-                <label>Name:</label>
-                <input type="text" {...register('name', { 
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" {...register('name', { 
                     required:true, 
                     maxLength: 10  
                 })} className='transparent-input' />
@@ -38,8 +38,8 @@ const FormValidation = () => {
                 {errors.name?.type === 'maxLength' && <small>Only up to 15 characters are allowed</small>}
                 </div>
             <div className='form-control'>
-                <label>Email:</label>
-                 <input type="text"{...register('email', { 
+                <label for="email">Email:</label>
+                 <input id="email" type="text"{...register('email', { 
                     required: true, 
                     pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
                     })} className='transparent-input' />
@@ -48,8 +48,8 @@ const FormValidation = () => {
                </div>
 
             <div className='form-control'>
-                <label>Password:</label>
-                <input type="password" {...register('password', {
+                <label for="password">Password:</label>
+                <input id="password" type="password" {...register('password', {
                     required: true,
                  })} className='transparent-input' />
                 {errors.password && <small>This field is required.</small>}
