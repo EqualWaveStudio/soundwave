@@ -47,28 +47,37 @@ describe('Render p component', () => {
 
 describe('Alt text for the images', () => {  
   it('If the microphone image fails, the alternate text of the microphone icon image should appear', () => {   
-    const { getByAltText } = render(<MainDiscover />);    
+    const { getByAltText } = render(
+      <MemoryRouter>
+      <MainDiscover />
+    </MemoryRouter>);    
     const imagen = getByAltText(/microphone icon/i); 
 
     expect(imagen).toBeInTheDocument();  
   });
 
   it('If the albums image fails, the alternate text of the albums icon image should appear', () => {   
-    const { getByAltText } = render(<MainDiscover />);    
+    const { getByAltText } = render(<MemoryRouter>
+      <MainDiscover />
+    </MemoryRouter>);    
     const imagen = getByAltText(/albums icon/i);    
 
     expect(imagen).toBeInTheDocument();  
   });
 
   it('If the more image fails, the alternate text of the more icon image should appear', () => {   
-    const { getByAltText } = render(<MainDiscover />);    
+    const { getByAltText } = render(<MemoryRouter>
+      <MainDiscover />
+    </MemoryRouter>);    
     const imagen = getByAltText(/more icon/i);  
 
     expect(imagen).toBeInTheDocument();  
   });
 
   it('If the covers image fails, the alternate text of the collage of album covers image should appear', () => {   
-    const { getByAltText } = render(<MainDiscover />);    
+    const { getByAltText } = render(<MemoryRouter>
+      <MainDiscover />
+    </MemoryRouter>);    
     const imagen = getByAltText(/collage of album covers/i);  
 
     expect(imagen).toBeInTheDocument();  
