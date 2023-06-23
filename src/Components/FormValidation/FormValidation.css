@@ -31,7 +31,8 @@
   }
 
   small {
-    color: var(--pink-dark);
+    color: var(--white);
+    font-style: italic;
   }
 
     .transparent-input {
@@ -63,4 +64,13 @@
           margin-top: 2rem;
           font-size: 5vw;
          }
+         
+
+         small {
+          color: var(--white);
+          font-style: italic;
+          font-size: 0.8rem;
+        }
+
+        
       }
