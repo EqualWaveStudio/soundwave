@@ -2,9 +2,11 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import MainHome from './MainHome';
 import ButtonJoin from '../../Components/ButtonJoin/ButtonJoin';
+import { MemoryRouter } from 'react-router-dom';
 
 describe('should have a heading', () => {
-  render(<MainHome />); 
+  render(<MemoryRouter><MainHome />
+  </MemoryRouter>); 
   test('Shuld have a heading: Feel The Music', () => {
    const mainHeading = screen.getByText(/Feel The Music/i );
     expect(mainHeading).toBeInTheDocument();
@@ -22,14 +24,14 @@ describe('should have a heading', () => {
   });
 
   test('Should have a button', () => {
-    render(<ButtonJoin />)
+    render(<MemoryRouter><ButtonJoin /></MemoryRouter>)
     const buttonElement = screen.getByRole('button');
     expect(buttonElement).toBeInTheDocument();
   });
 
 
   it('If the photo of the girl fails, the alternate text appear', () => {   
-    render(<MainHome />);    
+    render(<MemoryRouter><MainHome /></MemoryRouter>);    
     const imageElement = screen.getByAltText(/Afro-descendant woman with headphones listening to and enjoying music/i);
     expect(imageElement).toBeInTheDocument();
   });
