@@ -56,7 +56,7 @@ A list of technologies or tools used within the project:
 
 - Laura García (garch.laura@gmail.com)
 - Jacinemi Urquiola Alvarez
-- Jeaneth Sánchez Núñez
+- Jeaneth Sánchez Núñez (jeaneth.sanchez@gmail.com)
 - Ana Lucía Silva Córdoba (coderalsc@gmail.com)
 - Rafaela Silveira Prieto (todaunabossa@gmail.com)
 
