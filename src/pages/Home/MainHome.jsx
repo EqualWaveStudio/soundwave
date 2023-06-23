@@ -9,17 +9,12 @@ const Main = () => {
     <main>
 
         <div className="main-content">
-          
-         
-          <img className="girl-photo" src={girlPhoto} alt="Afro-descendant woman with headphones listening to and enjoying music" />
-         
-
+          <img className="girl-photo" src={girlPhoto} alt="Afro-descendant woman with headphones listening to and enjoying music" />      
           <div className='main-text'>
             <h1>Feel The music</h1>
             <p>Stream over 20 thousand songs with one click</p>
             <ButtonJoin />
           </div>
-
 
           <div className='pink-cirle'></div>
           <div className='big-blue-cirle'></div>

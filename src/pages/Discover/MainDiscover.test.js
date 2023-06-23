@@ -14,19 +14,16 @@ describe('Render h1 component', () => {
   
   test('Should have an h1', () => {
     const h1Element = screen.getByRole('heading', { level: 1 });
-
     expect(h1Element).toBeInTheDocument();
   })
 
   test('h1 should have a text', () => {
     const h1Element = screen.getByText('Discover new music');
-
     expect(h1Element).toBeInTheDocument();
   })
 
   test('If the text does not match', () => {
     const h1Element = screen.getByText('over new music', { exact: false });
-
     expect(h1Element).toBeInTheDocument();
   })
 })
@@ -40,7 +37,6 @@ describe('Render p component', () => {
     );
   
     const pElement = screen.getByText('By joing you can benefit by listening to the latest albums releases.');
-
     expect(pElement).toBeInTheDocument();
   })
 })
@@ -52,7 +48,6 @@ describe('Alt text for the images', () => {
       <MainDiscover />
     </MemoryRouter>);    
     const imagen = getByAltText(/microphone icon/i); 
-
     expect(imagen).toBeInTheDocument();  
   });
 
@@ -61,7 +56,6 @@ describe('Alt text for the images', () => {
       <MainDiscover />
     </MemoryRouter>);    
     const imagen = getByAltText(/albums icon/i);    
-
     expect(imagen).toBeInTheDocument();  
   });
 
@@ -70,7 +64,6 @@ describe('Alt text for the images', () => {
       <MainDiscover />
     </MemoryRouter>);    
     const imagen = getByAltText(/more icon/i);  
-
     expect(imagen).toBeInTheDocument();  
   });
 
@@ -79,7 +72,6 @@ describe('Alt text for the images', () => {
       <MainDiscover />
     </MemoryRouter>);    
     const imagen = getByAltText(/collage of album covers/i);  
-
     expect(imagen).toBeInTheDocument();  
   });
  });
