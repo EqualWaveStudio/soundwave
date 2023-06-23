@@ -13,12 +13,11 @@ describe('should have a heading', () => {
 
 
   test('should have a paragraph', () => {
-    const pElement = screen.queryByText('Stream over 20 thousand songs with one click')
-    if (pElement) {  
-      expect(pElement).toBeInTheDocument(); 
-    } else {
-      expect(pElement).not.toBeInTheDocument();
-    }
+    render(<MemoryRouter><MainHome />
+    </MemoryRouter>); 
+    const pElement = screen.getByText('Stream over 20 thousand songs with one click')
+    expect(pElement).toBeInTheDocument(); 
+
   });
 
   test('Should have a button', () => {
