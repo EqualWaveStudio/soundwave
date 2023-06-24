@@ -55,7 +55,7 @@ A list of technologies or tools used within the project:
 ## 👾 Developers
 
 - Laura García (garch.laura@gmail.com)
-- Jacinemi Urquiola Alvarez
+- Jacinemi Urquiola Alvarez (jaciurkiola@gmail.com)
 - Jeaneth Sánchez Núñez (jeaneth.sanchez@gmail.com)
 - Ana Lucía Silva Córdoba (coderalsc@gmail.com)
 - Rafaela Silveira Prieto (todaunabossa@gmail.com)
